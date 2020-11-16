@@ -1,8 +1,14 @@
 # BeautifulReport
 
-本代码遵循MIT协议，请自由下载，修改和使用。
+*  本代码遵循MIT协议，请自由下载，修改和使用。
 
-一个基于unittest.TestResult模块实现的测试用例模板, 可把测试中的结果通过BeautifulReport整合成一个可视化的报表.
+* 一个基于unittest.TestResult模块实现的测试用例模板, 可把测试中的结果通过BeautifulReport整合成一个可视化的报表.
+
+*  感谢原作者的代码贡献，本人在原基础上改成Python2的版本
+
+- [mocobk](https://github.com/mocobk/BeautifulReport)
+
+- [TesterlifeRaymond](https://github.com/TesterlifeRaymond/BeautifulReport)
 
 ### 如何使用它?
 
@@ -84,9 +90,7 @@ class UnittestCaseSecond(unittest.TestCase):
 
 ![image](http://mocobk.test.upcdn.net/image/img20190325124850.jpg)
 
-感谢原作者的代码贡献，本人在原基础上改成Python2的版本
-[mocobk](https://github.com/mocobk/BeautifulReport)
-[TesterlifeRaymond](https://github.com/TesterlifeRaymond/BeautifulReport)
+
 
 
 
