@@ -33,7 +33,7 @@ def output2console(s):
     """将stdout内容输出到console"""
     tmp_stdout = sys.stdout
     sys.stdout = origin_stdout
-    print(s, '')
+    #print(s, '')
     sys.stdout = tmp_stdout
 
 
@@ -420,7 +420,7 @@ class BeautifulReport(ReportTestResult, PATH):
             body = file.read().decode('utf-8')
         with open(override_path + self.filename, 'w') as write_file:
             html = render_template(render_params, body)
-            write_file.write(html)
+            write_file.write(html.encode('utf-8'))
 
     @staticmethod
     def img2base(img_path, file_name):
